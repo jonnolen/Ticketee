@@ -23,7 +23,9 @@ group :test, :development do
 end
 
 group :test do
-  gem 'cucumber-railse'
+  gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'
   gem 'capybara'
   gem 'database_cleaner'
+  
 end
